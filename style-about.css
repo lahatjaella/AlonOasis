@@ -1,0 +1,78 @@
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  background-color: #FFEAE0;
+}
+
+.navbar {
+  position: relative;
+  background-color: black;
+  padding: 2px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar-list-item {
+  margin: 0 15px;
+}
+
+.navbar-list-item a {
+  font-family: "DM Serif Display", serif;
+  color: #FFEAE0;
+  transition: 0.2s ease;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-list-item a:hover {
+  color: #A47F6A;
+}
+
+.navbar-icon {
+  width: 60px;
+}
+
+#about {
+    font-size: 40px;
+    font-family: "DM Serif Display", serif;
+    margin: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+}
+
+#our-values {
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+}
+
+main p {
+  font-family: "Jost", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  padding: 5px 40px;
+  margin: 5px 20px;
+}
+
+
+#interior {
+  float: left;
+  width: 40%;
+  margin: 20px; 
+}
+
+.footer {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
